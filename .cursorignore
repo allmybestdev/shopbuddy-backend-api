@@ -1,0 +1,55 @@
+# 로그 파일 무시
+*.log
+logs/
+api_requests.log
+
+# 가상 환경 무시
+venv/
+.venv/
+env/
+.env/
+.python-version
+
+# 캐시 파일 무시
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 데이터베이스 파일 무시
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE 관련 파일 무시
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 빌드 및 배포 관련 파일 무시
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# 환경 변수 파일 무시
+.env
+.env.*
+
+# 임시 파일 무시
+tmp/
+temp/
+
+# 개인 설정 파일 무시
+config.local.py
+settings.local.py
+
+# 대용량 데이터 파일 무시
+*.csv
+*.json
+*.xlsx
+*.parquet 

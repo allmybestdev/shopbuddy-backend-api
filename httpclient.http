@@ -1,0 +1,23 @@
+### GET request to example server
+
+###
+
+POST http://shopbuddy.kr:8080/api/users
+Content-Type: application/json
+
+{
+  "user_nm": "순돌이1"
+}
+
+###
+POST http://shopbuddy.kr:8080/api/browsing-history
+Content-Type: application/json
+
+{
+  "site_url": "site_url",
+  "chrome_extention_uuid": "chrome_extention_uuid"
+}
+
+
+
+

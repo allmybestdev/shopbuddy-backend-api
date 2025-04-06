@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+
+</body>
+
+<script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+            window.voiceflow.chat.load({
+                verify: { projectID: '657124775061e600072a7b65' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production',
+                userID:"user_id_1234"
+            }).then(() => {
+                setTimeout(function () {
+                    window.voiceflow.chat.open();
+                }, 1000);
+            });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+</script>
+
+
+</html>

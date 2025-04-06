@@ -1,0 +1,30 @@
+{
+  "title": "게시물 타이틀",
+  "content": "게시물 상세",
+  "payload": [
+    {"name":"JANG"},
+    {"name":"JAE"},
+    {"name":"HOON"}
+  ],
+  "realEstatePostLocationRequest": {
+    "placeName": "string",
+    "palceAddress": "string",
+    "palceCity": "string",
+    "palceState": "string",
+    "palceCountry": "string",
+    "palceZipCode": "string",
+    "placeLatitude": 0,
+    "palceLongitude": 0
+  },
+  "realEstatePostImagesRequest": [
+    {
+      "urlPath": "string",
+      "dataImage": "string",
+      "imgType": "OG",
+      "imgLatitude": 0,
+      "imgLongitude": 0
+    }
+  ],
+  "tags": "Tags"
+}
+
